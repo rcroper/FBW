@@ -1,0 +1,64 @@
+@media (max-width: 900px) {
+    .navlist{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        height: 100vh;
+        gap: 30px;
+        clip-path: inset(0 0 100% 0);
+        transition: .5s ease;
+    }
+
+    .openmenu{
+        clip-path: inset(0 0 0 0);
+    }
+
+    .navlink{
+        font-size: 2.2rem;
+        text-transform: uppercase;
+    }
+
+    .header{
+        background-color: black !important;
+        z-index: 1000;
+    }
+
+    .navmenuicon{
+        display: block;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .ctacontainer{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .cta{
+        padding: 10px 50px;
+    }
+
+    .cta-alternate{
+        padding: 10px 40px;
+    }
+
+    .logo{
+        width: 90px !important;
+    }
+
+    .header{
+        height: 90px;
+    }
+
+    .navlink{
+        font-size: 1.3rem;
+    }
+
+    .hero h1{
+        line-height: 140%;
+    }
+}
