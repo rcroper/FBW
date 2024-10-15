@@ -95,7 +95,7 @@ body{
     width: 100%;
     
     color: white;
-    background-image: linear-gradient(rgb(33, 30, 42), rgba(189, 158, 225, 0.717)),url(./imgs/FBW-Building-scaled-2.jpg);
+    background-image: linear-gradient(rgb(33, 30, 42), rgba(189, 158, 225, 0.717)),url(/imgs/FBW-Building-scaled-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
